@@ -1,0 +1,20 @@
+# Supabase Configuration
+SUPABASE_URL=https://tsnazxzeaezfsoukwgti.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRzbmF6eHplYWV6ZnNvdWt3Z3RpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NDcyMDI0NiwiZXhwIjoyMDkwMjk2MjQ2fQ.0K38hrX_IEm5aWaVxm2gDHekW5Rf_PfVEEIZVvB9f4M
+
+# Server Configuration
+PORT=3000
+HOST=127.0.0.1
+SESSION_SECRET=hackindy-session-secret-change-in-production
+
+# Client App URL (for redirects)
+CLIENT_APP_URL=http://localhost:5176
+
+# Purdue Auth Mode: 'mock' for development, 'cas' for production
+PURDUE_AUTH_MODE=mock
+
+# Gemini API
+GEMINI_API_KEY=AIzaSyCeAu3ziqstijw0giihMa1R2O3MqaEr4CQ
+
+# Development helpers
+DEV_PURDUE_EMAIL=student@purdue.edu
